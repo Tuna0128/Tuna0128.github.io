@@ -34,20 +34,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
-div {
-  position: center;
-  top: 0%;
-  left: 0%;
-  color: white;
-  font-size: 1.2em;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  width: 1000px;
-  height: 200px;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 6px;
-}  
+ 
 
 body {
   display: -ms-flexbox;
