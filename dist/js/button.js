@@ -1,0 +1,1 @@
+<button onclick="window.location.href='www.google.com'">Play</button>
