@@ -48,10 +48,12 @@
     <button class="btn btn-outline-light my-2" onclick="dosbox.requestFullScreen();" style="position: absolute;top: 55%;left: 1%">Make fullscreen</button>
     <script type="text/javascript" src="./dist/js/js-dos-api.js"></script>
     <script type="text/javascript">
+      var item = getParameter("item");
+      var exe = getParameter("exe");
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("https://tuna0128.github.io/games/airdemo.zip", "./AIRPOWER.EXE");
+          dosbox.run("https://tuna0128.github.io/games/"+item+".zip", exe);
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
