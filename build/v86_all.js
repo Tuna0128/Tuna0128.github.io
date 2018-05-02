@@ -557,11 +557,11 @@ function Ka(a, b) {
                     id: "kolibrios-fallback",
                     Ra: { url: z + "images/kolibri.img", size: 1474560 },
                     name: "KolibriOS"
-                }, { id: "openbsd", Ra: { url: z + "images/openbsd.img", size: 1474560 }, name: "OpenBSD" }, { id: "solos", Ra: { url: z + "images/os8.dsk", size: 1474560 }, name: "Sol OS" }, { id: "dexos", Qa: { url: z + "images/DexOSv6.iso", size: 1837056 }, name: "DexOS" }, { id: "bootchess", Ra: { url: z + "images/bootchess.img" }, name: "Bootchess" }, { id: "windows98", Ia: 67108864, Ma: { url: z + "images/windows98.img", async: !0, size: 314572800 }, name: "Windows 98", state: { url: z + "images/windows98_state.bin", size: 75705744 } }, {
+                }, { id: "openbsd", Ra: { url: z + "images/openbsd.img", size: 1474560 }, name: "OpenBSD" }, { id: "solos", Ra: { url: z + "images/os8.dsk", size: 1474560 }, name: "Sol OS" }, { id: "dexos", Qa: { url: z + "images/DexOSv6.iso", size: 1837056 }, name: "DexOS" }, { id: "bootchess", Ra: { url: z + "images/bootchess.img" }, name: "Bootchess" }, { id: "windows98", Ia: 67108864, Ma: { url: "https://i.copy.sh/images/windows98.img", async: !0, size: 314572800 }, name: "Windows 98", state: { url: z + "images/windows98_state.bin", size: 75705744 } }, {
                     id: "windows95",
                     Ia: 33554432,
                     Ma: {
-                        url: z + "images/W95.IMG",
+                        url: "https://i.copy.sh/images/W95.IMG",
                         size: 242049024,
                         async: !0
                     },
